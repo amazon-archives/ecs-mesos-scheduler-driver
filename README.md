@@ -1,12 +1,6 @@
 # Amazon ECS Scheduler Driver
 
-The Amazon EC2 Container Service (Amazon ECS) Scheduler Driver is an implementation of a Mesos Scheduler Driver which allows for direct
-communication to Amazon ECS without the need for a Mesos Master or Mesos Slaves.
-
-This allows for the use of existing Schedulers like Marathon and Chronos with Amazon ECS as the cluster
-management solution.
-
-*This is an example of what can be done with Amazon ECS, and is not recommended for production use.*
+The Amazon EC2 Container Service (Amazon ECS) Scheduler Driver is an initial proof of concept of how we could start integrating Apache Mesos with ECS. This proof of concept demonstrates how Mesos schedulers (frameworks) could schedule workloads on ECS. It demonstrates the potential for Amazon ECS to integrate with the Mesos ecosystem, which would allow you to use Mesos schedulers like Marathon and Chronos to launch tasks on Amazon ECS. This is an example of what can be done with Amazon ECS, and is not recommended for production use.  We are working with the Mesos community to develop a more robust integration between Apache Mesos and Amazon ECS.
 
 ## Building
 Run `mvn package` in the root directory, a jar will be produced in the target/ directory.
