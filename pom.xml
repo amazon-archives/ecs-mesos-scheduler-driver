@@ -45,7 +45,7 @@ language governing permissions and limitations under the License.
         <dependency>
             <groupId>org.apache.mesos</groupId>
             <artifactId>mesos</artifactId>
-            <version>0.21.1-rc2</version>
+            <version>1.4.3</version>
         </dependency>
     </dependencies>
 
